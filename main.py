@@ -35,8 +35,8 @@ again_rect = Rect(screen_width // 2 -80, screen_height // 2, 160, 50)
 
 
 def draw_grid():
-    bg = (255, 255, 200)
-    grid = (50, 50, 50)
+    bg = (0, 0, 0)
+    grid = (185, 185, 185)
     screen.fill(bg)
     for x in range(1, 3):
         pygame.draw.line(screen, grid, (0, x * 100), (screen_width, x * 100), line_width)
